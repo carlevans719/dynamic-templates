@@ -19,7 +19,7 @@ meteor add carlevans719:dynamic-templates
 This package adds `DynamicTemplate` to the client. It takes a Spacebars string
 as the first argument (e.g. `<p>{{someHelper}}</p>`) and an optional template
 name as the second.
-```
+```js
 var content = '<p>{{someHelper}}</p>';
 var name = 'myNewTemplate';
 var template = new DynamicTemplate(content, name);
@@ -29,7 +29,7 @@ var template = new DynamicTemplate(content, name);
 ## Example
 
 index.html:
-```
+```html
 <head>
   <title>Dynamic Templates</title>
 </head>
@@ -41,7 +41,7 @@ index.html:
 ```
 
 index.js:
-```
+```js
 // Define global helpers for bgColor and color
 Template.registerHelper('bgColor', function () {
 	return 'orange';
