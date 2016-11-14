@@ -72,3 +72,8 @@ These will be addressed as soon as possible, however for now:
  - You cannot update existing templates, you will need to create a new one for
  each update
  - There is no abstraction for adding helpers / events to the dynamic templates
+
+
+## License
+
+MIT
